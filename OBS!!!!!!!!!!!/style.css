@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+body{
+font-family: 'Arvo', sans-serif;
+}
+main{
+    background-image: linear-gradient(rgb(185, 65, 246),blue);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+h1{
+    margin: 5px;
+    
+    
+}
+h1::after{
+    content: '🧠';
+}
+blockquote{
+    font-style: italic;
+    padding: 5px;
+}
+
+mark{
+    background-color: rgb(110, 25, 196);
+    color: white;
+    padding: 3px;
+    border-radius: 10px;
+}
+img{
+    width: 400px;
+    height: 400px;
+    margin-left: 305px;
+}
+div.video{
+    margin-left: 100‒;
+    margin-left: 205px;
+    margin-top: 10‒;
+    margin-top: 39px;
+}
+    

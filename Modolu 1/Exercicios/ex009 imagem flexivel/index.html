@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+</head>
+<style>
+body{
+
+background-color: blueviolet;
+
+}
+h1{
+
+font-family: sans-serif;
+color: aqua;
+
+}
+p{
+font-family: sans-serif;
+color: antiquewhite;
+
+
+}
+
+img{
+border-radius: 50px 50px 50px 50px  ;
+
+}
+
+</style>
+<body>
+    <h1>Imagen dinâmicas</h1>
+    <p>Tente abrir ese site em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+
+    <picture >
+        <source media="(max-width:750px )" srcset="imagens/foto-p.png" type="imagem/png">
+        <source media="(max-width:1050px )" srcset="imagens/foto-m.png" type="imagem/png">
+        <img src="Imagens/foto-g.png" alt="Imagem Flexivel">
+    </picture>
+
+    <h1>Reproduzindo audio</h1>
+    <p>Vamos aprender a reproduzir audio em html 5</p>
+    <audio src="midia/Ice & Fire - King Canyon.mp3" controls autoplay ></audio>
+<!--ogg Wav Mpeg-->
+
+
+
+</body>
+</html>

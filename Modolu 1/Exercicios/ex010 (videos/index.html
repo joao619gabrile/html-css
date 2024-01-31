@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com html5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+    <!--Para colocar uma tumb no seu video use a tag <poster>-->
+        <!---->
+        <!--Coloque vario formatos de videos(mp4,webm,ogv)porque a navegadores que nao acitam todos os tipos de formatos-->
+        <!---->
+        <!--A melhor opição não e colocar videos hospedados localmente(no seu proprio servidor), apenas se o cliente exigir(obs:mesmo o cliente pedindo e bom orientalo que nao e a melhor opição pois com varios acessos(ex:1000 acessos com 11,500 kb(ou 11.5 mg)
+        de dowloads )tera 11.2 gb de consumo de banda na melhor das hipoteses no caso do ogv por exemblo usara bem mais.) o site vai ficar pesado e assim  deixalo mais caro para hospedar em um servidor)-->
+    <video  width="560" poster="imagens/Processadores2.jpg" controls autoplay loop>   
+        <source src="Videos/Meuvideo.webm" type="video/webm">
+        <source src="Videos/meuvideomenor.mp4" type="video/mp4">
+        <source src="Videos/meuvideo.ogv" type="video/ogv">
+<p>Seu navegador nao tem compatibilidade com reprodutor de videos</p>
+ </video>
+ <!--Videos hospedados externamente são bem mais leves-->
+ <!--Adicionando videos de serviços de videos-->
+ <h1>Inserindo videos do youtube</h1>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/6iw6GmoX3Lc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+ <!--Vimeo e um plataforma  igual o youtube soque privada (paga),da para personalizar mais,e um pouco mais rapido, bom para clientes que querem apeans assinantes assitam videos,nao aparece recomendação de videos no final(e bom que nao corre o risco de aparecer videos de uma concorrente do seu cliente)-->
+ <!--A vantagem do vimeo a banda de trans ferencia e ilimitada a unica e quantidade de videos limitados para subir o consumo mensal e ilimitado-->
+<h1>Inserindo videos do vimeo</h1>
+<iframe src="https://player.vimeo.com/video/165997932?h=c9fe8e2a55&title=0&byline=0&portrait=0" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+
+</body>
+</html>
