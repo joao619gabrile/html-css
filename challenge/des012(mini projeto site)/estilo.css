@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'babas';
+    src: url(fontes/idroid.otf) format(opentype);
+}
+
+
+body{
+    margin: 5px;
+    background-color: #E3F26D;
+    padding: 5px;
+}
+
+
+

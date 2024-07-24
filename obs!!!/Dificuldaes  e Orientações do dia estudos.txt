@@ -1,0 +1,10 @@
+<Image/png><---SE ATENTAR NA tag anterior
+na hora de colocar as imagens flexiveis
+<-------------------------------------------------->
+sempre se atentar com o nome das fotos salvas, arquivos e etc.
+as vezes pode ser oq esta dando erro no codigo !!!!nome de arquivos!!!!
+<----------------------------------------------------------->
+prestar atençao nos pdfs de desafios para nao estar tentando fazer outra coisa a q foi pedida 
+<--------------------->
+pra colocar um botao no linktem que colocar <button> dentro da tag <a>.
+a mesma coisa com imagem c vc quiser colocar um imagem com link coloque a tag <img> dentro da tag <a>

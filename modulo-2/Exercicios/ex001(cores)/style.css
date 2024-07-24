@@ -1,0 +1,22 @@
+/* body representaçao por nome  */
+
+body{
+background-color:rgb(89, 158, 181);
+
+}
+h1{
+    /* h1 backgrouncolor: #fffff hexadecimal*/
+    /*Representaçao por rgb 255,255,255=branco que e 255vermelho(r)*/
+background-color:#78D6F5;
+color: rgb(102, 6, 132);
+border-radius: 20px 20px 20px 20px;
+text-align: center;
+height: 50px;
+}
+h2{
+background-color:#ffffff00;
+color: rgb(102, 6, 132);
+border-radius: 20px 20px 20px 20px;
+text-align: center;
+height: 40px;
+}
