@@ -2,26 +2,55 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meus videos</title>
+    <title>Podcasts</title>
+    <style>
+iframe{
+    width: 800px;
+    height: 500px;
+}
+
+#ext{
+    border-radius: 20px;
+    border: dashed red;
+}
+
+p{
+    font-size: 3em;
+}
+    </style>
 </head>
-<style>
-body{
-background-color: rgb(32, 32, 32);
-}
-h1{
-color: blueviolet;
-
-}
-</style>
 <body>
+   <h1>PODCASTS </h1>
+   <h1>Aqui listei algus podcasts importates</h1>
 
-<h1>Videos legais de assistir</h1>
-<a href="bobpage.html" target="_blank" rel="next"><img src="imagem/thumbbob2.png" alt="Thumb bob"></a>
-<a href="emicida.html" target="_blank" rel="next"><img src="imagem/thumbemicida2.png" alt="Thumb emicida"></a>
-<br>
-<a href="edirock.html" target="_blank" rel="next"><img src="imagem/edirock.png" alt="thumb edirock"></a>
-<a href="pericles.html" target="_blank" rel="next"><img src="imagem/pericles.png" alt="thumb pericles"></a>
+   <ul>
+
+<li><a href="paginas-extras/bobpage.html" target="frame">Bob Burniquist</a></li>
+<li><a href="paginas-extras/pericles.html" target="frame">Pericles</a></li>
+<li><a href="paginas-extras/edirock.html" target="frame">Edi rock</a></li>
+<li><a href="paginas-extras/emicida.html" target="frame">Emicida</a></li>
+
+   </ul>
+<iframe name="frame" srcdoc="<h1> Olá Mundo </h1> <p>Testando o novo parametro srcdoc </p>"></iframe>
+
+<p>Tudo isso aprendia aqui no curso em video
+
+<iframe src="https://www.cursoemvideo.com/" frameborder="0"></iframe>
+
+
+
+</p>
+
+<h1>Podcasts extras </h1>
+
+<ul>
+<li><a href="paginas-extras/index.html" target="ext">Index</a></li>
+<li><a href="paginas-extras/pericles.html" target="ext">Edi rock</a></li>
+<li><a href="paginas-extras/emicida.html" target="ext">Emicida</a></li>
+
+<iframe id="ext" name="ext" src="" frameborder="1"></iframe>
+
+</ul>
 </body>
 </html>
