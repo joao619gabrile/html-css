@@ -21,20 +21,14 @@ form input{
 </head>
 <body>
     
-       <form action="cadastro.php" autocomplete="off">
+       <form method="post" action="cadastro.php" autocomplete="off">
 
-<label for="inome">
-    <p>Nome: <input type="text" name="nome" id="inome" required>
-</p>
-</label>
+<p><label for="inome">Nome:</label></p>
+<input type="text" name="nome" id="inome">
+<p><label for="isobrenome">sobrenome</label></p>
+<input type="text" name="sobrenome" id="isobrenome">
 
-<label for="isobrenome"><p>Sobrenome: <input type="text" name="sobrenome" id="isobrenome" required></p></label>
 
-<label for=""><p>E-mail:<input type="email" name="email" id="email" required> </p></label>
-
-<label for=""><p>Telefone:<input type="tel" name="telefone" id="telefone" maxlength="11" required> </p></label>
-
-<label for=""><p>Senha:<input type="password" name="senha" id="senha" required> </p> </label>
 
 <p><input type="submit" value="Enviar"></p>
 
