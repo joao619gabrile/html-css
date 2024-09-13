@@ -7,38 +7,75 @@
 </head>
 <body>
     <h1>Slect, datalist & textarea</h1>
-    <form action="cadastro.php" method="" autocomplete="on">
+    <form action="cadastro.php" method="post" autocomplete="on">
 
 
-<select name="estado" id="iestado">
+<fieldset>
+    <legend>SELECT</legend>
+    <select name="estado" id="iestado">
+    
+    <optgroup label="Sudeste">
+        <option value="SP">São Paulo</option>
+        <option value="MG">Minas Gerais</option>
+        <option value="RJ">Rio de Janeiro</option>
+        <option value="ES">Espirito Santo</option>
+    </optgroup>
+    
+    
+    <optgroup label="Nordeste" >
+        <option value="BA">Bahia</option>
+        <option value="SE">Sergipe</option>
+        <option value="PB">Pernambuco</option>
+        <option value="PI">Piaui</option>
+        <option value="CE">Ceara</option>
+        <option value="AL">Alagoas</option>
+        <option value="RGN">Rio Grande do Norte</option>
+        <option value="MA">Maranhão</option>
+        <option value="PB">Paraiba</option>
+    </optgroup>
+    
+    <optgroup label="Sul">
+        <option value="PR">Parana</option>
+        <option value="SC">Santa Catarina</option>
+        <option value="RGS">Rio Grande do sul</option>
+    </optgroup>
+    
+    </select>
+</fieldset>
 
-<optgroup label="Sudeste">
-    <option value="SP">São Paulo</option>
-    <option value="MG">Minas Gerais</option>
-    <option value="RJ">Rio de Janeiro</option>
-    <option value="ES">Espirito Santo</option>
-</optgroup>
+<fieldset>
+    <legend>DATALIST</legend>
+    <label for="frutas">Escolha sua fruta</label>
+    <input  list="ifruit" name="frutas" id="frutas">
+    
+    <!--
+    Quando Usar Cada Abordagem
+Sem o atributo value: Use quando o valor a ser enviado é exatamente o mesmo que o texto exibido e não há necessidade de distinção entre o valor mostrado e o valor enviado.
 
+Com o atributo value: Use quando você precisa enviar um valor diferente do texto exibido, como códigos ou identificadores que são mais apropriados para processamento de dados no backend.
+    -->
 
-<optgroup label="Nordeste" >
-    <option value="BA">Bahia</option>
-    <option value="SE">Sergipe</option>
-    <option value="PB">Pernambuco</option>
-    <option value="PI">Piaui</option>
-    <option value="CE">Ceara</option>
-    <option value="AL">Alagoas</option>
-    <option value="RGN">Rio Grande do Norte</option>
-    <option value="MA">Maranhão</option>
-    <option value="PB">Paraiba</option>
-</optgroup>
-
-<optgroup label="Sul">
-    <option value="PR">Parana</option>
-    <option value="SC">Santa Catarina</option>
-    <option value="RGS">Rio Grande do sul</option>
-</optgroup>
-
-</select>
+    <datalist  id="ifruit">
+        <option >Manga</option>
+        <option >banana</option>
+        <option value="Manga"></option>
+        <option value="Banana"></option>
+        <option value="Potato">Batata</option>
+        <option value="apple">Maça</option>
+        
+    </datalist>
+</fieldset>
+<fieldset>
+    <legend>Text Area</legend>
+    <textarea name="curriculum" id="curriculum" rows="10" cols="20" maxlength="50" readonly>Ola deixe aqui um resumo sobre vc</textarea>
+    <p>
+        <label for="iupload">Curriculum:</label>
+        <input type="file" name="upload" id="iupload">
+    </p>
+</fieldset>
+<p>
+    <input type="submit">
+</p>
     </form>
 </body>
 </html>
