@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check box & Radio</title>
+</head>
+<body>
+    <h1>Formulario</h1>
+    <form action="cadastro.php" method="get">
+        <fieldset>
+            <legend>Radio</legend>
+                <input type="radio" name="sexo" id="isxm" value="m"><label for="isxm">Masculino</label>
+                <input type="radio" name="sexo" id="isxf" value="f"> <label for="isxf">Femininio</label>
+        </fieldset>
+        <fieldset>
+            <legend>Checkbox</legend>
+            <input type="checkbox" name="basq" id="ibasq"> <label for="ibasq">Basquete</label> <br>
+            <input type="checkbox" name="fut" id="ifut"> <label for="ifut">Futebol</label> <br>
+            <input type="checkbox" name="vol" id="ivol"> <label for="ivol">Volei</label> <br>
+            <input type="checkbox" name="nat" id="inat"> <label for="inat">Natação</label> <br>
+            <input type="checkbox" name="box" id="ibox"> <label for="ibox">Box</label> <br>
+        </fieldset>
+        <p>
+<input type="checkbox"  name="prom" id="iprop" checked> 
+<label for="iprop"> Você Gostaria de receber promoções direto no seu email???</label> <br>
+
+
+        </p>
+<p>
+<input type="submit" value="Enviar">
+<input type="reset" value="Limpar">
+</p>
+
+    </form>
+</body>
+</html>

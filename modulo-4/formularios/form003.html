@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color , Range e File</title>
+</head>
+<body>
+    <h1>Color , Range & File</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+<fieldset>
+    <legend>Color</legend>
+<p>
+    <input type="color" name="cor" id="icor " >
+    <input type="color" name="cor" id="icor" value="#ff0000">
+</p>
+</fieldset>
+
+<fieldset>
+    <legend>Range</legend>
+    <label for="imedia">Nivel de satisfação</label>
+    <input type="range" name="media" id="imedia" min="0" max="5" value="3"> 
+</fieldset>
+
+<fieldset>
+    <legend>File</legend>
+    <input type="file">
+</fieldset>
+
+<p>
+    <input type="reset">
+    <input type="submit">
+</p>
+
+    </form>
+</body>
+</html>
