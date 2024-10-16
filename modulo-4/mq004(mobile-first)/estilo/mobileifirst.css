@@ -2,6 +2,7 @@
 
 
 @media screen and (min-width:768px ) and (max-width:992px) {
+    /*Versão de Tablet*/
     body{
         background-image: url(../imagens/back-tablet.jpg);
     }
@@ -13,7 +14,8 @@
     
 }
 
-@media screen and (min-width:992px ) and (max-width:1200px) {
+@media screen and (min-width:992px ) and (max-width:1200px) { 
+    /*Versão de Desktop*/
     body{
         background-image:url(../imagens/back-pc.jpg) ;
     }
@@ -25,7 +27,7 @@
     img#tv{display: none;}
 }
 
-@media screen and (min-width:1200px ) {
+@media screen and (min-width:1200px ) { /*Versão para Telas Grandes*/
     body{
         background-image:url(../imagens/back-tv.jpg) ;
     }
@@ -38,11 +40,23 @@
 }
 
 
-@media print{
+@media print{/*Versão de impressora */
 
     main{
-        background-color: brown;
+        border: 3px solid black;
     }
+    main > h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: black;
+        text-shadow: none;
+    }
+
+    img#phone{display: none;}
+    img#tablet{display: none;}
+    img#pc{display: none;}
+    img#print{display: block;}
+    img#tv{display: none;}
+
 }
 
 
