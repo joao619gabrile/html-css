@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/*tipical device breakpoints
+
+peuqenas telas:600px
+celular: 601 a 768px
+tablet : 768 a 992px
+desktop : 992 a 1200px
+grandes telas : 1201px a cima 
+
+*/
+
+@media screen and (min-width:768px){
+    span#burguer{
+        display: none;
+    }
+
+    menu{
+        display: block;
+    }
+
+    menu > ul > li {
+        display: inline-block;
+    }
+
+    main{
+        width: 768px;
+    }
+}
