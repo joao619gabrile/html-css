@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+*{
+margin: 0px;
+padding: 0px;
+
+}
+main{
+    background-color: blue;
+    display: block;
+    justify-content: center;
+    height: 100vh;
+
+}
+section{
+    background-color: brown;
+    margin: auto;
+    width: 300px;
+    
+}
+#imagem{
+  
+ 
+  
+}
+img{
+    height: 350px;
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+
+#formulario{
+    
+}
+
+
+
