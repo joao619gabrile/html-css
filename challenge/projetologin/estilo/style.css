@@ -1,38 +1,79 @@
-@charset "UTF-8";
+@charset "UTF_8";
 
 *{
-margin: 0px;
-padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
 
+body,html {
+    background-image: linear-gradient(to right bottom, #1c0537, #3f1163, #691991, #9a1bbe, #d112eb);
+    background-repeat: no-repeat;
+    height: 100vh;
+   width: 100vw;
+   
 }
 main{
-    background-color: blue;
-    display: block;
+    height: 100vh; 
+    width: 100vw;
+    display: flex;
     justify-content: center;
-    height: 100vh;
+    align-items: center;
+   
+   
+}
 
+section#login{
+    background-color: white;
+    width: 350px;
+    height: 720px; border-radius: 25px  ;
+   
 }
-section{
-    background-color: brown;
+
+#imagem > img{
+    width:350px;
+    height: 300px;
+    border-radius: 25px 25px 0px 0px;
+    margin-bottom: 10px;
+}
+
+#formulario > h1{
+    font-size: 1.8em;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#formulario > p{
+    text-align: justify;
+    padding: 10px;
+}
+
+input{
     margin: auto;
-    width: 300px;
-    
-}
-#imagem{
-  
- 
-  
-}
-img{
-    height: 350px;
-    width: 300px;
     display: block;
-    margin: auto;
+    padding: 15px;
+    margin-bottom: 10px;
+    width: 40vw;
+    border: 2px solid black;
+}
+input{
+    font-size: 1.1em;
 }
 
-#formulario{
-    
+input#senha{
+    font-size: 1em;
 }
 
+input#entrar:hover{
+    background-color: #9a1bbe;
+    color: white;
+   border: 2px solid white;
+}
 
+input#reset:hover{
+    background-color: #9a1bbe;
+    color: white;
+   border: 2px solid white;
+}
 
