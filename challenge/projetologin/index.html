@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="estilo/style.css" media="all">
+    <link rel="stylesheet" href="desktop.css" media="(min-width: 768px)">
     <title>Login</title>
 </head>
 <body>
@@ -19,8 +20,8 @@
                 <p>Seja bem vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente </p>
                 <form action="login.php" method="post">
                 
-                    <input type="email" name="email" id="email" placeholder="seu e-mail">
-                    <input type="password" name="senha" id="senha" placeholder="sua senha">
+                    <input type="email" name="email" id="email" placeholder="Seu e-mail">
+                    <input type="password" name="senha" id="senha" placeholder="Sua senha">
                     <input type="submit" value="Entrar" id="entrar">
                     <input type="button" value="Esqueci a senha" id="reset">
 
