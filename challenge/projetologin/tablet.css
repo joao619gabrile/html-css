@@ -2,21 +2,22 @@
 
 section#login{
     display: flex;
-    height: 50vh;
+    height: 320px;
     width: 70vw;
     border-radius: 0px;
 }
 
 #imagem > img{
-    height: 50vh;
+    height: 320px;
     border-radius: 0px;
 }
 
 #formulario{
-    padding: 25px;
+    padding: 10px;
    
 }
 
 input{
-   width: 30vw;
+    width: 100%;
 }
+
