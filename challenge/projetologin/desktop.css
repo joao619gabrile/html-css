@@ -1,21 +1,17 @@
 @charset "UTF-8";
 
 section#login{
-    display: flex;
-    height: 50vh;
-    width: 70vw;
-    border-radius: 0px;
+    display: flex ;
+    flex-direction: row-reverse;
+    height: 60vh;
 }
 
 #imagem > img{
-    height: 50vh;
-    border-radius: 0px;
+    height: 60vh;
+    width: 30vw;
 }
 
-#formulario{
-    padding: 25px;
+#formulario > p,h1{
+    font-size: 1.3em;
 }
 
-input{
-   width: 30vw;
-}

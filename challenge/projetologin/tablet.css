@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+section#login{
+    display: flex;
+    height: 50vh;
+    width: 70vw;
+    border-radius: 0px;
+}
+
+#imagem > img{
+    height: 50vh;
+    border-radius: 0px;
+}
+
+#formulario{
+    padding: 25px;
+   
+}
+
+input{
+   width: 30vw;
+}
