@@ -7,14 +7,16 @@
     box-sizing: border-box;
 }
 
-body {
+body, html {
     background-image: linear-gradient(to right bottom, #1c0537, #3f1163, #691991, #9a1bbe, #d112eb);
     background-repeat: no-repeat;
     height: 100vh;
+    width: 100vw;
    
 }
 main{
     height: 100vh;
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,19 +28,22 @@ main{
 section#login{
     background-color: white;
     width: 250px;
-    height:530px; 
+    height:500px; 
     border-radius: 25px  ;
-    
+    overflow: hidden;
    
 }
 
-#imagem > img{
+#imagem {
+    background: #1c0537 url(../imagem/pexels-victor-dubugras-1479988588-28056007\ \(1\).jpg )no-repeat;
+    background-size: cover;
+    background-position: center center;
     width:250px;
     height: 200px;
-    border-radius: 25px 25px 0px 0px;
-    margin-bottom: 10px;
 }
-
+div#formulario{
+    padding: 10px;
+}
 #formulario > h1{
     font-size: 1.5em;
     font-weight: bolder;
@@ -57,16 +62,14 @@ input{
     display: block;
     margin-bottom: 10px;
     width: 220px;
-    padding: 7px;
+    padding: 5px;
     border: 2px solid black;
 }
 input{
     font-size: 1.1em;
 }
 
-input#senha{
-    font-size: 1em;
-}
+
 
 input#entrar:hover{
     background-color: #9a1bbe;

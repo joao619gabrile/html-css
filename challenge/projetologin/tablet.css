@@ -4,12 +4,12 @@ section#login{
     display: flex;
     height: 320px;
     width: 70vw;
-    border-radius: 0px;
+    
 }
 
 #imagem > img{
     height: 320px;
-    border-radius: 0px;
+    border-radius: 20px 0px 0px 20px;
 }
 
 #formulario{

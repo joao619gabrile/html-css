@@ -9,6 +9,7 @@ section#login{
 #imagem > img{
     height: 60vh;
     width: 30vw;
+    border-radius: 0px 20px 20px 0px;
 }
 
 #formulario > p,h1{
