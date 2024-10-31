@@ -7,9 +7,9 @@ section#login{
     
 }
 
-#imagem > img{
-    height: 320px;
-    border-radius: 20px 0px 0px 20px;
+div#imagem{
+ height: 320px;
+ width: 400px;
 }
 
 #formulario{

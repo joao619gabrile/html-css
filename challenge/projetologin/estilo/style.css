@@ -31,7 +31,9 @@ section#login{
     height:500px; 
     border-radius: 25px  ;
     overflow: hidden;
-   
+
+    transition: width.3s, height .3s;
+    transition-timing-function: ease;
 }
 
 #imagem {

@@ -4,12 +4,15 @@ section#login{
     display: flex ;
     flex-direction: row-reverse;
     height: 60vh;
+
 }
 
-#imagem > img{
+div#imagem{
     height: 60vh;
-    width: 30vw;
-    border-radius: 0px 20px 20px 0px;
+    width: 800px;
+}
+div#formulario{
+    padding: 30px;
 }
 
 #formulario > p,h1{
