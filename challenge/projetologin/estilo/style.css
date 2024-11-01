@@ -28,7 +28,7 @@ main{
 section#login{
     background-color: white;
     width: 250px;
-    height:500px; 
+    height:510px; 
     border-radius: 25px  ;
     overflow: hidden;
 
@@ -63,12 +63,16 @@ input{
     margin: auto;
     display: block;
     margin-bottom: 10px;
-    width: 220px;
+    width: 100%;
     padding: 5px;
     border: 2px solid black;
 }
 input{
     font-size: 1.1em;
+}
+
+label{
+    display: none;
 }
 
 
@@ -83,6 +87,23 @@ input#reset:hover{
     background-color: #9a1bbe;
     color: white;
    border: 2px solid white;
+}
+
+div.campo{
+    background-color: #3f1163;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 33px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    
+}
+
+span {
+    padding: 5px;
+    color: white;
 }
 
 

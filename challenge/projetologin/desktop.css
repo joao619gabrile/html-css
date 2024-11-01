@@ -3,19 +3,23 @@
 section#login{
     display: flex ;
     flex-direction: row-reverse;
-    height: 60vh;
+    height: 320px;
 
 }
 
 div#imagem{
-    height: 60vh;
+    height: 320px;
     width: 800px;
 }
 div#formulario{
-    padding: 30px;
+    padding: 20px;
 }
 
 #formulario > p,h1{
-    font-size: 1.3em;
+    font-size: 1em;
 }
 
+
+div.campo{
+    height: 34px;
+}

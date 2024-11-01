@@ -2,13 +2,13 @@
 
 section#login{
     display: flex;
-    height: 320px;
+    height: 280px;
     width: 70vw;
     
 }
 
 div#imagem{
- height: 320px;
+ height: 280px;
  width: 400px;
 }
 
