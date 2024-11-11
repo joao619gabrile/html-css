@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container{
+    background-color: blueviolet;
+    height: 300px;
+    width: 200px;
+    float: inline-end;
+   
+
+   
+}
+
+.container:hover{
+    margin-right: 50px; 
+    transition: margin 0.5s ease;
+    
+}
