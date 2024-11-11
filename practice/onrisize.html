@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body onresize="myFunction()">
+
+<p>Tente redimensionar a janela do navegador para exibir a altura e a largura da janela</p>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  let w = window.outerWidth;
+  let h = window.outerHeight;
+  let txt = "Tamanho da Janela: Largura=" + w + ", Altura=" + h;
+  document.getElementById("demo").innerHTML = txt;
+}
+</script>
+
+</body>
+</html>
