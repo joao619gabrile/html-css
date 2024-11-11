@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translate</title>
+    <style>
+        
+        .div1{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            transform: translate(50px , 50px);
+            margin-bottom: 100px;
+        }
+        .div2{
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            transform: rotate(20deg) translate(50% );
+            margin-bottom: 100px;
+        }
+        .div3{
+            width: 100px;
+            height: 100px;
+            background-color: blueviolet;
+            margin-bottom: 100px;
+            transform: skew(20deg) translate(20%);
+        }
+        .div4{
+            width: 100px;
+            height: 100px;
+            background-color: orangered;
+        transform: scale(1) translate(50%);
+        }
+
+        .div4:hover{
+            background-color: aqua;
+            transform: scale(2, 1) translate(50%) rotate(20deg);
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <h1>Div 1</h1>
+    </div>
+    <div class="div2">
+        <h1>Div 2</h1>
+    </div>
+    <div class="div3">
+        <h1>Div 3</h1>
+    </div>
+    <div class="div4">
+        <h1>Div 4</h1>
+    </div>
+</body>
+</html>

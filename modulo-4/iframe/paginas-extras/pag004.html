@@ -11,7 +11,7 @@
 
 <p>
   Nome:
-<input type="text" name="nome" id="nome">
+<input type="text" name="nome" id="nome" autocomplete="tel">
 <input type="submit" value="cadastrar">
 
 </p>
@@ -19,5 +19,22 @@
 
 
     </form>
+
+    <button id="botaoAdicionar">Adicionar Texto</button>
+    <div id="containerTexto"></div>
+
+    <script>
+        document.getElementById("botaoAdicionar").addEventListener("click", function() {
+            const container = document.getElementById("containerTexto");
+
+            // Cria um novo elemento de parágrafo
+            const novoTexto = document.createElement("p");
+            novoTexto.classList.add("texto-gerado");
+            novoTexto.textContent = "Este é um novo texto gerado na próxima linha.";
+
+            // Adiciona o novo elemento ao container
+            container.appendChild(novoTexto);
+        });
+    </script>
 </body>
 </html>
