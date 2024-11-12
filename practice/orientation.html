@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orientation</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+@media(orientation: portrait){
+   body{
+    background-color: brown;
+   }
+   .div1{
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+    background-color: blue;
+    transform: scale(1.1) skew(10deg);
+}
+}
+
+@media(orientation: landscape){
+    body{
+        background-color: aqua;
+    }
+    .div1{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(252, 252, 255);
+}
+}
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <h1>Óla Mundo</h1>
+    <div class="div1"></div>
+    
+</body>
+</html>
