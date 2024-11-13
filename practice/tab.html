@@ -4,32 +4,135 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabela</title>
-    <style>
-        
-table{
-    border-collapse: collapse;
-   
-}
-        td,tr{
+   <style>
+    *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
 
-            border: 1px solid black;
-            padding: 20px;
-        }
-    </style>
+    body{
+        height: 100vh;
+        width: 100vw;
+        background-image: url(imagens/pexels-goumbik-669576.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    table{
+        border-collapse: collapse;
+        background-color: white;
+        border: 2px solid black;
+        
+    }
+    caption{
+        font-size: 2em;
+        padding: 15px;
+    }
+
+    thead{
+        background-color: rgb(74, 72, 71);
+        color: white;
+    }
+    tr , td , th{
+        border: 2px solid black;
+        padding: 15px;
+        text-align: center;
+        justify-items: center;
+        font-size: 1.2em;
+        
+    }
+
+    tr:nth-child(even){
+        background-color: rgb(17, 189, 223);
+    }
+
+    tbody > tr:hover{
+        background-color: rgb(4, 33, 105);
+        color: white;
+    }
+
+    
+   </style>
 </head>
 <body>
     <table>
+        <caption>Horarios de Atendimento</caption>
+        
+       <thead>
         <tr>
-            <td> ola</td>
-            <td rowspan="2">ola</td>
+            <th>Horários</th>
+            <th>Segunda-Feira</th>
+            <th>Terça-Feira</th>
+            <th>Quarta-Feira</th>
+            <th>Quinta-Feira</th>
+            <th>Sexta-Feira</th>
         </tr>
+       </thead>
+       <tbody>
+        <tr>
+            <td>08:00</td>
+            <td>Yoga</td>
+            <td>Livre</td>
+            <td>Cardio</td>
+            <td>Musculaçao</td>
+            <td>Recovery</td>
+        </tr>
+        <tr>
+            <td>10:00</td>
+            <td>Cardio</td>
+            <td>Esteira</td>
+            <td>Musculaçao</td>
+            <td>Hidro</td> 
+            <td>Yoga</td>
 
-        <tr> <td>oi</td>
         </tr>
         <tr>
-            <td>oi</td>
-            <td>oi</td>
+            <td>12:00</td>
+            <td>Musculação</td>
+            <td>Recovery</td>
+            <td>Livre</td>
+            <td>Yoga</td>
+            <td>Cardio</td>
         </tr>
+        <tr>
+            <td>15:00</td>
+            <td>Esteira</td>
+            <td>Cardio</td>
+            <td>Hidro</td>
+            <td>Recovery</td>
+            <td>Meditaçao</td>
+        </tr>
+        <tr>
+            <td>18:00</td>
+            <td>Hidro</td>
+            <td>Musculaçao</td>
+            <td>Yoga</td>
+            <td>Cardio</td>
+            <td>Recovery</td>
+        </tr>
+        <tr>
+            <td>21:00</td>
+            <td>Recovery</td>
+            <td>Hidro</td>
+            <td>Esteira</td>
+            <td>livre</td>
+            <td>Musculação</td>
+        </tr>
+        <tr>
+            <td>00:00</td>
+            <td>Livre</td>
+            <td>Yoga</td>
+            <td>Recovery</td>
+            <td>Cardio</td>
+            <td>Hidro</td>
+        </tr>
+       </tbody>
        
     </table>
 </body>
